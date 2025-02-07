@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const secondContainer = document.getElementById('second');
     let thirdContainer = null;
 
-    const totalPhotos = 260;
+    const totalPhotos = 262;
     const numberOfPhotosToShow = 60;
     let currentZIndex = 2;
 
@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const photoIndices = Array.from({ length: totalPhotos }, (_, i) => i + 1);
 
     const categories = {
-        "concert_folder.png": { folder: "photo_concert", totalPhotos: 179 },
-        "skate_folder.png": { folder: "photo_skate", totalPhotos: 63 },
+        "concert_folder.png": { folder: "photo_concert", totalPhotos: 185 },
+        "skate_folder.png": { folder: "photo_skate", totalPhotos: 64 },
         "fleurs_folder.png": { folder: "photo_fleurs", totalPhotos: 113 },
-        "sandbox_folder.png": { folder: "photo_sandbox", totalPhotos: 126 },
+        "sandbox_folder.png": { folder: "photo_sandbox", totalPhotos: 128 },
         "about_folder.png": { folder: "photo_about", totalPhotos: 1 },
         "contact_folder.png": { folder: "photo_contact", totalPhotos: 0 },
     };

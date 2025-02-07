@@ -43,7 +43,7 @@ body {
 }
 .overlay-image {
     position: absolute;
-    max-width: 40vw; 
+    max-width: 39.75vw; 
     max-height: 41vh;
     z-index: 4;
 }
