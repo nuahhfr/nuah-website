@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const categories = {
         "concert_folder.png": { folder: "photo_concert", totalPhotos: 185 },
-        "skate_folder.png": { folder: "photo_skate", totalPhotos: 64 },
+        "skate_folder.png": { folder: "photo_skate", totalPhotos: 63 },
         "fleurs_folder.png": { folder: "photo_fleurs", totalPhotos: 113 },
         "sandbox_folder.png": { folder: "photo_sandbox", totalPhotos: 128 },
         "about_folder.png": { folder: "photo_about", totalPhotos: 1 },
