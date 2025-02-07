@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const photoIndices = Array.from({ length: totalPhotos }, (_, i) => i + 1);
 
     const categories = {
-        "concert_folder.png": { folder: "photo_concert", totalPhotos: 168 },
+        "concert_folder.png": { folder: "photo_concert", totalPhotos: 179 },
         "skate_folder.png": { folder: "photo_skate", totalPhotos: 63 },
         "fleurs_folder.png": { folder: "photo_fleurs", totalPhotos: 113 },
         "sandbox_folder.png": { folder: "photo_sandbox", totalPhotos: 126 },
